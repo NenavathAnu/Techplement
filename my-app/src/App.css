@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.App{
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.quote{
+  background: url(./components/bg.jpg);
+  background-size: cover;
+  width:450px;
+  height:320px;
+  border-radius: 10px;
+  padding: 50px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+}
+.quote h2{
+  font-size:2em;
+  font-family: 'Lobster','cursive';
+}
+.quote small{
+  font-size: 1.5em;
+  font-family: 'Dancing Script','cursive';
+}
+.btnn {
+	display: block;
+	border: 2px solid #008CBA;
+	background: transparent;
+	padding: 10px 15px;
+	color: #008CBA;
+	font-size: 20px;
+	border-radius: 5px;
+  margin-bottom: 10px;
+	cursor: pointer;
+	outline: none;
+	transition: background 1s, color 1s;
+}
+.btnn:hover{
+	background: #008CBA;
+	color: #fff;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.searchInput {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.search-btn {
+  padding: 10px 20px;
+}
